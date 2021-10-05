@@ -1,0 +1,15 @@
+.process{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#Message{
+    color: #ff0000;
+}

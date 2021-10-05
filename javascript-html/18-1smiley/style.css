@@ -1,0 +1,10 @@
+div{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+}
