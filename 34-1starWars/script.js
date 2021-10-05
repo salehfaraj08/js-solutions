@@ -23,9 +23,7 @@ const getAllPeople = (async() => {
 
 
 async function createTable() {
-    document.body.style.display = 'flex';
-    document.body.style.alignItems = 'center';
-    document.body.style.justifyContent = 'center';
+    document.body.style.cssText = 'display : flex; align-items: center ; justify-content : center';
     let table = document.createElement('table');
     document.body.appendChild(table);
     table.style.cssText = 'border: 1px solid black ; border-collapse: collapse ; width:50vw ; text-align:center';
